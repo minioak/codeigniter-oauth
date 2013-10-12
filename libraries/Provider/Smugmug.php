@@ -21,7 +21,9 @@ class OAuth_Provider_Smugmug extends OAuth_Provider {
 	
 	public function get_user_info(OAuth_Consumer $consumer, OAuth_Token $token)
 	{
-        return array();
+        return array(
+            'uid' => '123123412'
+        );
 	}
 
 } // End Provider_Smugmug
